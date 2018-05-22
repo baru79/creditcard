@@ -1,0 +1,166 @@
+.confirmationRejectMsj {
+	height: 83px;
+	width: 802px;
+	border-radius: 4px;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.23);
+  display: flex;
+  align-items: center;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+  padding: 14px 30px 17px 23px;
+}
+
+.itemSolicitud {
+	height: 83px;
+	width: 802px;
+	border-radius: 4px;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.23);
+  display: flex;
+  align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 15px;
+  padding: 14px 30px 17px 23px;
+	margin-bottom: 15px;
+}
+
+.rejectButton > button,
+.acceptButton > button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.infoSolicitud {
+	display: flex;
+	align-items: center;
+}
+
+.razonSocial,
+.nroEstablecimiento {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.razonSocial > li:nth-child(1) {
+	height: 19px;
+	width: 312.48px;
+	color: #333333;
+	font-family: "Droid Sans";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+}
+
+.razonSocial > li:nth-child(2) > label {
+  height: 19px;
+  width: 177.04px;
+  color: #8E8E8E;
+  font-family: "Droid Sans";
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.nroEstablecimiento > li:nth-child(1) > span {
+  height: 14px;
+  width: 121.58px;
+  color: #848484;
+  font-family: "Droid Sans";
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.nroEstablecimiento > li:nth-child(2) {
+	height: 19px;
+	width: 121.58px;
+	color: #333333;
+	font-family: "Droid Sans";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+}
+
+.nroEstablecimiento > li:nth-child(3) {
+	height: 17px;
+	width: 90px;
+	border-radius: 2px;
+	background-color: #B6B6B6;
+  text-align: center;
+}
+
+.borderBottomActive {
+	border: none;
+	border-bottom: 2px solid #23C324;
+}
+
+.borderBottomInactive {
+	border: none;
+	border-bottom: 2px solid #979797;
+}
+
+.nroTerminal > input[type=text] {
+	height: 21px;
+	width: 133px;
+	color: #ACACAC;
+	font-family: "Droid Sans";
+	font-size: 18px;
+	line-height: 21px;
+  letter-spacing: 1.6px;
+  outline: none;
+}
+
+.nroTerminal > input[type=number]::-webkit-inner-spin-button,
+.nroTerminal > input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.msjRejected {
+	list-style-type: none;
+	height: 58px;
+	width: 709px;
+	border: 1px solid #D20F36;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+	text-align: left;
+	padding: 18px 22px 20px 22px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.msjRejected > span {
+	height: 20px;
+	width: 427px;
+	color: #333333;
+	font-family: "Droid Sans";
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.cancelMsjButton {
+	height: 19px;
+	width: 64px;
+	color: #333333;
+	font-family: "Droid Sans";
+	font-size: 16px;
+	line-height: 19px;
+	border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.rejectMsjButton {
+	height: 19px;
+	width: 73px;
+	color: #D20F36;
+	font-family: "Droid Sans";
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+	border: none;
+  background-color: transparent;
+  outline: none;
+}

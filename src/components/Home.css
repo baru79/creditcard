@@ -1,0 +1,275 @@
+.banner {
+  height: 529px;
+  background: url('../assets/Group.png') center center/cover;
+  padding: 67px 122px 0 123px;
+}
+
+.rectangle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.tarjetaCredito {
+	height: 156px;
+	width: 249.6px;
+  margin-top: 80px;
+  border-radius: 8px;
+  box-shadow: 0 3px 16px 0 rgba(0,0,0,0.14);
+  background: linear-gradient(138.15deg, #1A56FF 0%, #600FC0 100%);
+  position: relative;
+}
+
+.logoVisa {
+  position: relative;
+}
+
+.logoVisa > span {
+  display: block;
+  height: 11px;
+	width: 49px;
+	color: #FFFFFF;
+	font-family: "Droid Sans";
+	font-size: 10px;
+	line-height: 11px;
+  position: absolute;
+  top: 50%;
+  right: 12%;
+}
+
+.logoVisa > img{
+  width: 105px;
+}
+
+.bienvenido > span {
+  display: block;
+	height: 50px;
+	width: 126px;
+	color: #FFFFFF;
+	font-family: "Droid Sans";
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.introduceTuNombre > input {
+	height: 35px;
+	width: 496.01px;
+	color: rgba(255,255,255,0.3);
+  background-color: transparent;
+	font-family: "Droid Sans";
+	font-size: 30px;
+	line-height: 35px;
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 10px;
+  outline: none;
+}
+
+.introduceTuNombre > button {
+  border: 1.2px solid #FFFFFF;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #FFFFFF;
+  background-color: transparent;
+  outline: none;
+}
+
+.comienzaAaprobarN {
+  padding: 100px 665px 100px 126px;
+}
+
+.comienzaAaprobarN > label{
+	height: 60px;
+	width: 329px;
+	color: #142989;
+	font-family: "Droid Sans";
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.comienzaAaprobarN > p {
+	height: 385px;
+	width: 489px;
+	color: #999999;
+	font-family: "Droid Sans";
+	font-size: 20px;
+	line-height: 30px;
+  margin-top: 30px;
+}
+
+.logoTarjeta {
+  text-align: right;
+}
+
+.logoTarjeta > img {
+  margin-top: 10px;
+}
+
+.nroTarjeta {
+	height: 16.7px;
+	width: 185.15px;
+	color: #FFFFFF;
+	font-family: "OCR A Std";
+	font-size: 13.52px;
+	line-height: 17px;
+  margin-left: 20px;
+  letter-spacing: 5px;
+}
+
+.datosTarjeta {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nombreTarjeta > span{
+	height: 24.31px;
+	width: 139.63px;
+	color: #D0E6E9;
+	font-family: "OCR A Std";
+	font-size: 10.79px;
+	letter-spacing: -0.01px;
+	line-height: 12px;
+  letter-spacing: 5px;
+}
+
+.vencTarjeta {
+  margin-right: 20px;
+}
+
+.vencTarjeta > span {
+	height: 12.16px;
+	width: 38.87px;
+	color: #D0E6E9;
+	font-family: "OCR A Std";
+	font-size: 10.79px;
+	letter-spacing: -0.01px;
+	line-height: 12px;
+}
+
+.formSolicitudOff {
+  opacity: 0.3;
+  height: 447px;
+	width: 450px;
+	border-radius: 8px;
+	background: linear-gradient(138.15deg, #1A56FF 0%, #600FC0 100%);
+	box-shadow: 0 3px 16px 0 rgba(0,0,0,0.14);
+  position: absolute;
+  top: 0;
+  left: 681px;
+  padding: 30px 18px 27px 32px;
+}
+
+.formSolicitudOn {
+  opacity: 1;
+	height: 447px;
+	width: 450px;
+	border-radius: 8px;
+	background: linear-gradient(138.15deg, #1A56FF 0%, #600FC0 100%);
+	box-shadow: 0 3px 16px 0 rgba(0,0,0,0.14);
+  position: absolute;
+  top: 0;
+  left: 681px;
+  padding: 30px 18px 27px 32px;
+}
+
+.formSolicitudOn > label,
+.formSolicitudOn > input,
+.formSolicitudOff > label,
+.formSolicitudOff > input
+ {
+  display:block;
+  margin-bottom: 22px;
+}
+
+.formSolicitudOn > label:nth-child(1),
+.formSolicitudOff > label:nth-child(1) {
+	height: 45px;
+	width: 398.92px;
+	color: #FFFFFF;
+	font-family: "Droid Sans";
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 45px;
+}
+
+.formSolicitudOn > label,
+.formSolicitudOff > label {
+	height: 13px;
+	width: 389.93px;
+	color: #FFFFFF;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	line-height: 13px;
+}
+
+.formSolicitudOn > input[name='razonSocial'],
+.formSolicitudOff > input[name='razonSocial'] {
+	height: 40px;
+	width: 389.93px;
+  border: 1px solid #CACACA;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+  padding: 12px 12px 12px 15px;
+  outline: none;
+}
+
+.input {
+  height: 40px;
+	width: 389.93px;
+  border: 1px solid #CACACA;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+  padding: 12px 12px 12px 15px;
+  outline: none;
+}
+
+.inputError {
+  height: 40px;
+	width: 389.93px;
+  border: 1px solid #D20F36;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  padding: 12px 12px 12px 15px;
+  outline: none;
+}
+
+.buttonCrearSolicitudDisabled {
+  height: 74px;
+	width: 450px;
+	opacity: 0.09;
+  border-radius: 0 0 8px 8px;
+	background-color: #F8972E;
+  color: #FFFFFF;
+	font-family: "Droid Sans";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+	text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.buttonCrearSolicitudEnabled {
+  height: 74px;
+	width: 450px;
+	opacity: 1;
+  border-radius: 0 0 8px 8px;
+	background-color: #F8972E;
+  color: #FFFFFF;
+	font-family: "Droid Sans";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+	text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

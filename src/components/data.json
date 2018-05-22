@@ -1,0 +1,34 @@
+{
+  "solicitudes":[
+    {
+      "id": "0",
+      "razonSocial": "Nexus tecnologías informáticas S.A.",
+      "nroCuit": "CUIT: 33-70996436-0",
+      "nroEstablecimiento": "456421654265"
+    },
+    {
+      "id": "1",
+      "razonSocial": "Ramiréz González",
+      "nroCuit": "33-56336526-0",
+      "nroEstablecimiento": "45655465"
+    },
+    {
+      "id": "2",
+      "razonSocial": "Maquinaria Tonax S.A.",
+      "nroCuit": "33-55465526-0",
+      "nroEstablecimiento": "45645456"
+    },
+    {
+      "id": "3",
+      "razonSocial": "Restaurant Bar Aleman",
+      "nroCuit": "33-55465526-0",
+      "nroEstablecimiento": "552555465"
+    },
+    {
+      "id": "4",
+      "razonSocial": "Empresa Razón Social 2",
+      "nroCuit": "33-56169526-0",
+      "nroEstablecimiento": "999555465"
+    }
+  ]
+}
